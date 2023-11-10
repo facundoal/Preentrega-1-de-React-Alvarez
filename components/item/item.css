@@ -1,0 +1,18 @@
+.card{
+    display: flex;
+    background-color: burlywood;
+    display: inline-flex;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.card :hover {
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: inset;
+  background-color: black;
+}
+
+h1{
+    text-align: center;
+}
