@@ -6,7 +6,7 @@ import  {CartProvider}  from "./context/CartContext";
 import Cart from "./components/carrito";
 import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"
-import Checkout from "./components/Checkout";
+import Checkout from "./components/formulario/Checkout";
 
 
 const firebaseConfig = {

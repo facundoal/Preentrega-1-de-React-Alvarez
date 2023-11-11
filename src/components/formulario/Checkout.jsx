@@ -1,7 +1,9 @@
 import  React, { useContext, useState } from "react"
-import { CartContext } from "../context/CartContext"
+import { CartContext } from "../../context/CartContext"
 import {collection, addDoc} from "firebase/firestore"
-import { db } from "../App";
+import { db } from "../../App";
+import "../formulario/formulario.css"
+import { Link } from "react-router-dom";
 
 const Checkout = () => {
 
@@ -36,8 +38,11 @@ const Checkout = () => {
   } 
   if (codigoCompra){
     return (
-      <p>Muchas gracias por tu compra</p>,
-      <p>tu numero de compra es :{codigoCompra} </p>
+      <div className="mensajeFinal">
+      <h1>Muchas gracias por tu compra</h1>
+      <p>Tu numero de compra es :{codigoCompra} </p>
+      <button><Link to="/"> Volver al catalogo de productos </Link></button>
+      </div>
     )
   }
     return (
