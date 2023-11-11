@@ -62,7 +62,7 @@ const Checkout = () => {
 
       <button type="submit"> Comprar </button>
       
-
+ 
       </form>
      
     </div>

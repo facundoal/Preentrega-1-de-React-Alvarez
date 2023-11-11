@@ -28,7 +28,7 @@ import { createContext, useState } from "react"
       return carrito.reduce ((acc, producto) => acc + producto.count, 0) ;
      
     }
-  
+   
      
      const precioTotal = () =>{
       

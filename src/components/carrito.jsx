@@ -45,5 +45,5 @@ carrito.length > 0 ?
   )
 }
 
-export default CarritoPage
+export default CarritoPage 
 
