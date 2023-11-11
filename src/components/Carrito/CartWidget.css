@@ -1,0 +1,22 @@
+.CartWidget{
+    height: 40px;
+    width: 40px;
+    position:absolute;
+    top: 12px;
+    right: 55px;
+}
+
+.CartWidget {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .CartWidget:hover {
+    transform: scale(1.4);
+  }
+
+.carritoCantidad{
+    font-size: 22px;
+    top: 25px;
+    right: 30px;
+    position: absolute;
+}
